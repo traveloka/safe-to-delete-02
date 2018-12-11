@@ -61,7 +61,6 @@ variable "lb_logs_s3_bucket_name" {
 variable "lb_route53_record_name" {
   type        = "string"
   description = "The name of Route 53 record pointing to the LB. The default is the service name"
-  default     = ""
 }
 
 variable "lb_tg_health_check" {
